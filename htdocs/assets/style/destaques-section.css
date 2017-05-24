@@ -1,0 +1,135 @@
+.destaque-section {
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
+.destaque-title {
+  font-size: 1.5rem;
+}
+
+.destaque-description {
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+
+#destaques-section > .row {
+  margin-top: 2rem;
+}
+
+/*First row*/
+
+.destaque-icon {
+  display: block;
+  font-size: 2.3rem !important;
+  cursor: pointer;
+  position: absolute;
+  top: 1rem;
+  right: 3rem;
+  color: white;
+}
+
+.card-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 25rem;
+  display: flex;
+  align-items: flex-end;
+  border-radius: 2px;
+  padding-right: 0 !important;
+  padding-left: 0 !important;
+}
+
+.card-legend {
+  line-height: 2rem;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  min-height: 25rem;
+  font-weight: 800;
+  padding-left: 1.5rem;
+  padding-right: 1rem;
+  color: white;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.card-legend .destaque-section,
+.card-legend .destaque-title,
+.card-legend .destaque-description {
+  display: block;
+}
+
+.card-legend-mobile {
+  display: none;
+}
+
+/*Second row*/
+.card-destaques-outer {
+  margin-left: -1rem;
+  padding-left: 0 !important;
+}
+
+.card-destaques-outer .card-legend {
+  background-color: transparent;
+  color: var(--menu-background);
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card-destaques-outer .card-legend .destaque-section {
+  color: var(--font-color-hover);
+}
+
+.card-destaques-outer .destaque-icon {
+  position: relative;
+  top: -2rem;
+  left: 2rem;
+  color: var(--label-outer-color);
+  background-color: white;
+}
+
+/*Third row*/
+#third-row .card-image {
+  background-repeat: no-repeat;
+  min-height: 12rem;
+}
+.thumbnail {
+  border: none !important;
+  padding: 0 !important;
+}
+
+.thumbnail .caption {
+  height: 17rem;
+  padding: 9px 0 0 0 !important;
+}
+
+.thumbnail .destaque-icon {
+  position: relative;
+  left: 0;
+  color: var(--label-outer-color);
+  background-color: white;
+}
+
+#third-row .destaque-title {
+  color: var(--menu-background);
+  font-weight: 800;
+}
+
+#third-row .destaque-section {
+  color: var(--font-color-hover);
+}
+
+#third-row .destaque-description {
+  color: var(--menu-background);
+}
+
+.destaque-description + p {
+  position: absolute;
+  bottom: 0;
+}
+
+/*Hiding mobile elements*/
+.destaque-mobile-title, .destaque-mobile-description,
+.destaque-mobile-description + i, .destaque-image + i {
+  display: none;
+}

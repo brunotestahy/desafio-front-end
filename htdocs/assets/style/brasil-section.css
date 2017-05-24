@@ -1,0 +1,65 @@
+#brasil-section {
+  margin-top: 3rem;
+}
+
+.brasil-header {
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-left: 0.4rem;
+  margin-bottom: 0;
+  color: var(--menu-background);
+  font-weight: bold;
+}
+
+.brasil-card-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 12rem;
+}
+
+.thumbnail .brasil-icon {
+  position: relative;
+  left: 0;
+  color: var(--label-outer-color);
+  background-color: white;
+  font-size: 2.3rem !important;
+  cursor: pointer;
+}
+
+.brasil-title {
+  color: var(--menu-background);
+  font-weight: 800;
+}
+
+.brasil-section {
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: var(--font-color-hover);
+}
+
+.brasil-description {
+  color: var(--menu-background);
+}
+
+.brasil-description + p {
+  position: absolute;
+  bottom: 0;
+}
+
+.brasil-more {
+  margin: 0;
+  text-align: right;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--menu-background);
+}
+
+a {
+  cursor: pointer;
+}
+
+/*Hiding mobile elements*/
+.brasil-mobile-title, .brasil-mobile-description,
+.brasil-mobile-description + i {
+  display: none;
+}

@@ -1,0 +1,76 @@
+/*  IMPORTS
+******************/
+@import 'header.css';
+@import 'header-mobile.css';
+@import 'footer.css';
+@import 'destaques-section.css';
+@import 'destaques-section-mobile.css';
+@import 'brasil-section.css';
+@import 'brasil-section-mobile.css';
+@import 'mundo-section.css';
+@import 'mundo-section-mobile.css';
+
+:root {
+  --font-color: white;
+  --font-color-hover: #0079d0;
+  --menu-background: #004861;
+  --footer-background: #D5E11F;
+  --label-outer-color: #283453;
+}
+
+/*  GERAL
+******************/
+html, body {
+  height: 100%;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: white;
+  color: var(--font-color);
+}
+
+.container {
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+}
+
+.ancora {
+  position: absolute;
+  top: -85px;
+}
+
+.mobile-separator {
+  display: none;
+}
+
+hr {
+  border-color: lightgrey !important;
+  margin: 1rem 0 !important;
+}
+
+/*Mobile design*/
+@media screen and (max-width: 450px) {
+  .container {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    margin-top: 1rem;
+  }
+
+  .row {
+    display: block;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+
+  .mobile-separator {
+    display: block;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    border-color: lightgrey;
+  }
+
+  .col-sm-3 {
+    padding: 1rem 0 !important;
+  }
+}

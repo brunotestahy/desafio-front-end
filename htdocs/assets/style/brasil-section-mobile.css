@@ -1,0 +1,97 @@
+/*Mobile design*/
+@media screen and (max-width: 450px) {
+  .card-legend-mobile {
+    display: block;
+    padding: 1rem 2rem 0 2rem;
+  }
+
+  .brasil-mobile-section {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: var(--font-color-hover);
+  }
+
+  .brasil-mobile-title {
+    display: block;
+    color: var(--menu-background);
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+
+  .brasil-mobile-description {
+    display: block;
+    color: var(--menu-background);
+    font-size: 1.7rem;
+  }
+
+  .brasil-mobile-description + i {
+    display: block;
+  }
+
+  #brasil-section .caption {
+    display: none;
+  }
+
+  #brasil-section .thumbnail {
+    display: flex;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  #brasil-section .brasil-card-image {
+    background-size: contain;
+    width: 108vw;
+    margin-top: 0;
+  }
+
+  #brasil-section .card-legend-mobile {
+    padding-top: 0;
+    padding-right: 0;
+  }
+
+  #brasil-section .brasil-mobile-section {
+    font-size: 3vw;
+    color: var(--font-color-hover);
+  }
+
+  #brasil-section .brasil-mobile-title {
+    font-size: 4vw;
+    color: var(--menu-background);
+  }
+
+  #brasil-section .brasil-mobile-description {
+    font-size: 5vw;
+    width: 65vw;
+    color: var(--menu-background);
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  #brasil-section .mobile-icon {
+    top: -12vw;
+    left: 86vw;
+    position: relative;
+    color: var(--menu-background);
+    font-size: 2.3rem;
+  }
+
+  .brasil-header {
+    margin-left: 2rem;
+  }
+
+  .brasil-more {
+    margin-top: -1rem;
+    margin-right: 2rem;
+  }
+
+  #brasil-section .mobile-separator {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .hide-for-mobile {
+    display: none;
+  }
+}

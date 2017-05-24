@@ -1,0 +1,97 @@
+/*Mobile design*/
+@media screen and (max-width: 450px) {
+  .card-legend-mobile {
+    display: block;
+    padding: 1rem 2rem 0 2rem;
+  }
+
+  .mundo-mobile-section {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: var(--font-color-hover);
+  }
+
+  .mundo-mobile-title {
+    display: block;
+    color: var(--menu-background);
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+
+  .mundo-mobile-description {
+    display: block;
+    color: var(--menu-background);
+    font-size: 1.7rem;
+  }
+
+  #mundo-section .caption {
+    display: none;
+  }
+
+  #mundo-section .thumbnail {
+    display: flex;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  #mundo-section .mundo-card-image {
+    background-size: contain;
+    width: 108vw;
+    margin-top: 0;
+  }
+
+  #mundo-section .card-legend-mobile {
+    padding-top: 0;
+    padding-right: 0;
+  }
+
+  #mundo-section .mundo-mobile-section {
+    font-size: 3vw;
+    color: var(--font-color-hover);
+  }
+
+  #mundo-section .mundo-mobile-title {
+    font-size: 4vw;
+    color: var(--menu-background);
+  }
+
+  #mundo-section .mundo-mobile-description {
+    font-size: 5vw;
+    width: 65vw;
+    color: var(--menu-background);
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+
+  #mundo-section .mobile-icon {
+    top: -12vw;
+    left: 86vw;
+    position: relative;
+    color: var(--menu-background);
+    font-size: 2.3rem;
+  }
+
+  .mundo-header {
+    margin-left: 2rem;
+  }
+
+  .mundo-more {
+    margin-top: -1rem;
+    margin-right: 2rem;
+  }
+
+  #mundo-section .mobile-separator {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .hide-for-mobile {
+    display: none;
+  }
+
+  .mundo-mobile-description + i {
+    display: block;
+  }
+}

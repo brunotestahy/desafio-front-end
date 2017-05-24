@@ -1,0 +1,131 @@
+/*Mobile design*/
+@media screen and (max-width: 450px) {
+
+  .card-image {
+    margin-top: 2rem;
+  }
+
+  .col-sm-6 {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
+  .card-legend {
+    width: 100%;
+  }
+
+  .card-legend .destaque-section,
+  .card-legend .destaque-title,
+  .card-legend .destaque-description,
+  .card-destaques-outer {
+    display: none;
+  }
+
+  .card-legend-mobile {
+    display: block;
+    padding: 1rem 2rem 0 2rem;
+  }
+
+  .destaque-mobile-section {
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: var(--font-color-hover);
+  }
+
+  .destaque-mobile-title {
+    display: block;
+    color: var(--menu-background);
+    font-weight: bold;
+    font-size: 2.5rem;
+  }
+
+  .destaque-mobile-description {
+    display: block;
+    color: var(--menu-background);
+    font-size: 1.7rem;
+  }
+
+  .destaque-mobile-description + i {
+    display: block;
+  }
+
+  .destaque-image {
+    display: block;
+  }
+
+  #second-row .card-image {
+    background-size: contain;
+    min-height: 12rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    float: left;
+    width: 29vw;
+  }
+
+
+
+  #second-row .card-legend-mobile {
+    float: right;
+    margin-bottom: 1rem;
+    padding-left: 0;
+    max-width: 53vw;
+  }
+
+  #second-row .mobile-icon {
+    position: absolute;
+    color: var(--menu-background);
+    left: 29vw;
+    top: 14rem;
+  }
+
+  #second-row .destaque-mobile-section {
+    font-size: 1rem;
+  }
+
+  #second-row .destaque-mobile-title {
+    font-size: 1.5rem;
+  }
+
+  #second-row .destaque-mobile-description {
+    font-size: 1.3rem;
+  }
+
+  #third-row .caption {
+    display: none;
+  }
+
+  #third-row .thumbnail {
+    display: flex;
+    margin-bottom: 1rem;
+  }
+
+  #third-row .card-image {
+    background-size: contain;
+    width: 160vw;
+    margin-top: 0;
+  }
+
+  #third-row .card-legend-mobile {
+    padding-top: 0;
+    padding-right: 0;
+  }
+
+  #third-row .destaque-mobile-section {
+    font-size: 3vw;
+  }
+
+  #third-row .destaque-mobile-title {
+    font-size: 4vw;
+  }
+
+  #third-row .destaque-mobile-description {
+    font-size: 5vw;
+    width: 65vw;
+  }
+
+  #third-row .mobile-icon {
+    top: 43vw;
+    color: var(--menu-background);
+  }
+}

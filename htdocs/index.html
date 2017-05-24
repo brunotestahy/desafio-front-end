@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+   <title>InfoGlobo</title>
+
+   <meta name="description" content="Test for Globo">
+   <meta name="keywords" content="HTML, CSS, Front End, JavaScript">
+   <meta name="author" content="Bruno Testahy Cardoso">
+   <meta name="viewport" id="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
+
+   <link href="./assets/style/style.css" rel="stylesheet"/>
+
+   <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+   <!-- Última versão BootStrap CSS compilada e minificada -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+
+<!--Header Content-->
+<header class="main-header">
+   <nav class="navbar navbar-default navbar-fixed-top">
+      <label class="navigation-label" for="navigation-check">
+         <i class="fa fa-bars" id="menu-button"></i>
+         <div class="nav-header-title text-center">
+            <h1 class="header-title">INFOGLOBO<span class="header-title-colon">:</span></h1>
+         </div>
+      </label>
+      <input class="navigation-check" id="navigation-check" type="checkbox"/>
+      <ul class="navigation-list">
+         <li class="navigation-list-item">
+            <a href="#destaques" class="nav-link" id="destaques-link">Destaques</a>
+         </li>
+         <li class="navigation-list-item">
+            <a href="#brasil" class="nav-link" id="brasil-link">Brasil</a>
+         </li>
+         <li class="navigation-list-item">
+            <a href="#mundo" class="nav-link" id="mundo-link">Mundo</a>
+         </li>
+      </ul>
+   </nav>
+</header>
+
+<!--Main Content-->
+<div class="container">
+
+   <!--Destaques Section-->
+   <section class="section-background" id="destaques-section">
+      <i class="ancora" id="destaques"></i>
+
+      <!--First row-->
+      <div class="row">
+         <div class="col-sm-6">
+            <div class="card-image destaque-image">
+               <i class="fa fa-share-square-o destaque-icon" aria-hidden="true"></i>
+               <div class="card-legend">
+                  <p class="destaque-section"></p>
+                  <p class="destaque-title"></p>
+                  <p class="destaque-description"></p>
+               </div>
+            </div>
+
+            <div class="card-legend-mobile">
+               <p class="destaque-mobile-section"></p>
+               <p class="destaque-mobile-title"></p>
+               <p class="destaque-mobile-description"></p>
+            </div>
+         </div>
+
+         <div class="col-sm-6">
+            <div class="card-image destaque-image">
+               <i class="fa fa-share-square-o destaque-icon" aria-hidden="true"></i>
+               <div class="card-legend">
+                  <p class="destaque-section"></p>
+                  <p class="destaque-title"></p>
+                  <p class="destaque-description"></p>
+               </div>
+            </div>
+
+            <div class="card-legend-mobile">
+               <p class="destaque-mobile-section"></p>
+               <p class="destaque-mobile-title"></p>
+               <p class="destaque-mobile-description"></p>
+            </div>
+         </div>
+      </div>
+
+      <hr class="mobile-separator">
+
+      <!--Second row-->
+      <div class="row" id="second-row">
+
+         <div class="col-sm-6">
+            <div class="row">
+               <div class="col-sm-6">
+                  <div class="card-image destaque-image">
+                  </div>
+                  <i class="fa fa-share-square-o destaque-icon mobile-icon" aria-hidden="true"></i>
+                  <div class="card-legend-mobile">
+                     <p class="destaque-mobile-section"></p>
+                     <p class="destaque-mobile-title"></p>
+                     <p class="destaque-mobile-description"></p>
+                  </div>
+               </div>
+
+               <div class="col-sm-6">
+                  <div class="card-destaques-outer">
+                     <div class="card-legend">
+                        <p class="destaque-section"></p>
+                        <p class="destaque-title"></p>
+                        <p class="destaque-description"></p>
+                     </div>
+                     <p><i class="fa fa-share-square-o destaque-icon" aria-hidden="true"></i></p>
+
+                  </div>
+               </div>
+            </div>
+
+         </div>
+
+         <hr class="mobile-separator">
+
+         <div class="col-sm-6">
+            <div class="row">
+               <div class="col-sm-6">
+                  <div class="card-image destaque-image">
+                  </div>
+                  <i class="fa fa-share-square-o destaque-icon mobile-icon" aria-hidden="true"></i>
+                  <div class="card-legend-mobile">
+                     <p class="destaque-mobile-section"></p>
+                     <p class="destaque-mobile-title"></p>
+                     <p class="destaque-mobile-description"></p>
+                  </div>
+               </div>
+
+               <div class="col-sm-6">
+                  <div class="card-destaques-outer">
+                     <div class="card-legend">
+                        <p class="destaque-section"></p>
+                        <p class="destaque-title"></p>
+                        <p class="destaque-description"></p>
+                     </div>
+                     <p><i class="fa fa-share-square-o destaque-icon" aria-hidden="true"></i></p>
+
+                  </div>
+               </div>
+            </div>
+
+         </div>
+
+         <hr class="mobile-separator">
+
+      </div>
+
+      <!--Third row-->
+      <div class="row" id="third-row">
+
+         <div class="col-sm-3">
+            <div class="thumbnail">
+               <div class="card-image destaque-image">
+               </div>
+               <div class="caption">
+                  <p class="destaque-section"></p>
+                  <p class="destaque-title"></p>
+                  <p class="destaque-description"></p>
+                  <p><i class="fa fa-share-square-o destaque-icon" aria-hidden="true"></i></p>
+               </div>
+
+               <div class="card-legend-mobile">
+                  <p class="destaque-mobile-section"></p>
+                  <p class="destaque-mobile-title"></p>
+               </div>
+
+            </div>
+            <p class="destaque-mobile-description"></p>
+            <i class="fa fa-share-square-o destaque-icon mobile-icon" aria-hidden="true"></i>
+
+         </div>
+
+         <hr class="mobile-separator">
+
+         <div class="col-sm-3">
+            <div class="thumbnail">
+               <div class="card-image destaque-image">
+               </div>
+               <div class="caption">
+                  <p class="destaque-section"></p>
+                  <p class="destaque-title"></p>
+                  <p class="destaque-description"></p>
+                  <p><i class="fa fa-share-square-o destaque-icon" aria-hidden="true"></i></p>
+               </div>
+
+               <div class="card-legend-mobile">
+                  <p class="destaque-mobile-section"></p>
+                  <p class="destaque-mobile-title"></p>
+               </div>
+
+            </div>
+            <p class="destaque-mobile-description"></p>
+            <i class="fa fa-share-square-o destaque-icon mobile-icon" aria-hidden="true"></i>
+         </div>
+
+         <hr class="mobile-separator">
+
+         <div class="col-sm-3">
+            <div class="thumbnail">
+               <div class="card-image destaque-image">
+               </div>
+               <div class="caption">
+                  <p class="destaque-section"></p>
+                  <p class="destaque-title"></p>
+                  <p class="destaque-description"></p>
+                  <p><i class="fa fa-share-square-o destaque-icon" aria-hidden="true"></i></p>
+               </div>
+
+               <div class="card-legend-mobile">
+                  <p class="destaque-mobile-section"></p>
+                  <p class="destaque-mobile-title"></p>
+               </div>
+
+            </div>
+            <p class="destaque-mobile-description"></p>
+            <i class="fa fa-share-square-o destaque-icon mobile-icon" aria-hidden="true"></i>
+         </div>
+
+         <hr class="mobile-separator">
+
+         <div class="col-sm-3">
+            <div class="thumbnail">
+               <div class="card-image destaque-image">
+               </div>
+               <div class="caption">
+                  <p class="destaque-section"></p>
+                  <p class="destaque-title"></p>
+                  <p class="destaque-description"></p>
+                  <p><i class="fa fa-share-square-o destaque-icon" aria-hidden="true"></i></p>
+               </div>
+
+               <div class="card-legend-mobile">
+                  <p class="destaque-mobile-section"></p>
+                  <p class="destaque-mobile-title"></p>
+               </div>
+            </div>
+            <p class="destaque-mobile-description"></p>
+            <i class="fa fa-share-square-o destaque-icon mobile-icon" aria-hidden="true"></i>
+         </div>
+
+      </div>
+   </section><!--Destaques Section-->
+
+   <hr class="mobile-separator">
+
+   <!--Brasil Section-->
+   <section class=section-background" id="brasil-section">
+      <i class="ancora" id="brasil"></i>
+
+      <h2 class="brasil-header">Brasil</h2>
+      <div class="row" id="brasil-row">
+         <div class="col-sm-3" id="brasil-base-element">
+            <div class="thumbnail">
+               <div class="brasil-card-image brasil-image">
+               </div>
+               <div class="caption">
+                  <p class="brasil-section"></p>
+                  <p class="brasil-title"></p>
+                  <p class="brasil-description"></p>
+                  <p><i class="fa fa-share-square-o brasil-icon" aria-hidden="true"></i></p>
+               </div>
+
+               <div class="card-legend-mobile">
+                  <p class="brasil-mobile-section"></p>
+                  <p class="brasil-mobile-title"></p>
+               </div>
+            </div>
+            <p class="brasil-mobile-description"></p>
+            <i class="fa fa-share-square-o brasil-icon mobile-icon" aria-hidden="true"></i>
+
+            <hr class="mobile-separator">
+         </div>
+      </div>
+
+      <div class="row" id="brasil-row2">
+      </div>
+      <hr class="hide-for-mobile">
+      <h4 class="brasil-more"><a id="brasil-more-link">Brasil +</a></h4>
+      <hr>
+   </section><!--Brasil Section-->
+
+
+   <!--Mundo Section-->
+   <section class=section-background" id="mundo-section">
+      <i class="ancora" id="mundo"></i>
+
+      <h2 class="mundo-header">Mundo</h2>
+      <div class="row" id="mundo-row">
+         <div class="col-sm-3" id="mundo-base-element">
+            <div class="thumbnail">
+               <div class="mundo-card-image mundo-image">
+               </div>
+               <div class="caption">
+                  <p class="mundo-section"></p>
+                  <p class="mundo-title"></p>
+                  <p class="mundo-description"></p>
+                  <p><i class="fa fa-share-square-o mundo-icon" aria-hidden="true"></i></p>
+               </div>
+
+               <div class="card-legend-mobile">
+                  <p class="mundo-mobile-section"></p>
+                  <p class="mundo-mobile-title"></p>
+               </div>
+            </div>
+            <p class="mundo-mobile-description"></p>
+            <i class="fa fa-share-square-o mundo-icon mobile-icon" aria-hidden="true"></i>
+
+            <hr class="mobile-separator">
+
+         </div>
+      </div>
+
+      <div class="row" id="mundo-row2">
+      </div>
+      <hr class="hide-for-mobile">
+      <h4 class="mundo-more"><a id="mundo-more-link">Mundo +</a></h4>
+      <hr class="hide-for-mobile">
+   </section><!--Mundo Section-->
+
+</div><!--Container-->
+
+
+<footer class="main-footer">
+   <section class="footer-section">
+      <h1 class="footer-title">INFOGLOBO<span class="footer-title-colon">:</span></h1>
+   </section>
+
+   <section class="footer-section copyright-section">
+      <p class="copyright-paragraph">
+         COPYRIGHT @ 2017<br>
+         TODOS OS DIREITOS RESERVADOS
+      </p>
+   </section>
+</footer><!--Desktop Footer-->
+
+
+<footer class="mobile-footer">
+   <section class="footer-section copyright-section-mobile">
+      <p class="copyright-paragraph">
+         COPYRIGHT @ 2017<br>
+         TODOS OS DIREITOS RESERVADOS
+      </p>
+   </section>
+</footer><!--Mobile Footer-->
+
+<!--External JavaScript file-->
+<script src="./assets/script/main.js"></script>
+
+</body>
+</html>

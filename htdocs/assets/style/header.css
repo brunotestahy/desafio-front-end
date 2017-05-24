@@ -1,0 +1,81 @@
+/*  HEADER
+******************/
+.main-header {
+  position: relative;
+  background-color: #004861;
+}
+
+.navbar-default {
+  background-color: var(--menu-background) !important;
+}
+
+.navbar-fixed-top {
+  border: none !important;
+}
+
+.navigation-check {
+  display: none;
+}
+
+.nav-header-title {
+  width: 100%;
+}
+
+.header-title {
+  color: white;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.header-title-colon {
+  color: var(--footer-background);
+}
+
+.navigation-label {
+  font-size: 2.9rem;
+  align-items: center;
+  height: 4.5rem;
+  display: flex;
+  margin-left: 10px;
+}
+
+.navigation-list {
+  margin-top: -10px;
+  overflow: hidden;
+  height: 0;
+  margin-bottom: -1px;
+  transition: height 0.8s ease;
+}
+
+.navigation-check:checked + .navigation-list {
+  height: 150px;
+}
+
+.navigation-list .navigation-list-item {
+  display: block;
+}
+
+.navigation-list {
+  padding: 0;
+  background-color: var(--menu-background);
+}
+
+.navigation-list-item {
+  display: inline-block;
+  padding: 10px;
+}
+
+.nav-link {
+  color: var(--font-color);;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.nav-link:hover {
+  color: var(--font-color-hover);
+}
+
+.fa-bars {
+  color: white !important;
+  font-size: 1.5rem !important;
+}

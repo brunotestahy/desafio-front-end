@@ -1,0 +1,66 @@
+#mundo-section {
+  margin-top: 3rem;
+}
+
+.mundo-header {
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-left: 0.4rem;
+  margin-bottom: 0;
+  color: var(--menu-background);
+  font-weight: bold;
+}
+
+.mundo-card-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 12rem;
+}
+
+.thumbnail .mundo-icon {
+  position: relative;
+  left: 0;
+  color: var(--label-outer-color);
+  background-color: white;
+  font-size: 2.3rem !important;
+  cursor: pointer;
+}
+
+.mundo-title {
+  color: var(--menu-background);
+  font-weight: 800;
+}
+
+.mundo-section {
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: var(--font-color-hover);
+}
+
+.mundo-description {
+  color: var(--menu-background);
+}
+
+.mundo-description + p {
+  position: absolute;
+  bottom: 0;
+}
+
+.mundo-more {
+  margin: 0;
+  text-align: right;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: var(--menu-background);
+}
+
+a {
+  cursor: pointer;
+}
+
+
+/*Hiding mobile elements*/
+.mundo-mobile-title, .mundo-mobile-description,
+.mundo-mobile-description + i {
+  display: none;
+}
