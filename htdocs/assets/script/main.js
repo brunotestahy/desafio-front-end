@@ -122,7 +122,6 @@ var GloboLibrary = (function () {
 
          // Just the mobile elements of brasil
          if (brasilSectionMobile[j]) {
-            console.log('Entrei MOBILE');
             brasilSectionMobile[j].innerHTML = content[j]['label'];
             brasilTitleMobile[j].innerHTML = content[j]['title'];
             brasilDescriptionMobile[j].innerHTML = content[j]['description'];
@@ -185,7 +184,6 @@ var GloboLibrary = (function () {
 
          // Just the mobile elements of brasil
          if (mundoSectionMobile[j]) {
-            console.log('Entrei MOBILE');
             mundoSectionMobile[j].innerHTML = content[j]['label'];
             mundoTitleMobile[j].innerHTML = content[j]['title'];
             mundoDescriptionMobile[j].innerHTML = content[j]['description'];

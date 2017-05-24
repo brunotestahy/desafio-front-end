@@ -25,6 +25,10 @@
     font-size: 1.7rem;
   }
 
+  .mundo-mobile-description + i {
+    display: block;
+  }
+
   #mundo-section .caption {
     display: none;
   }
@@ -89,9 +93,5 @@
 
   .hide-for-mobile {
     display: none;
-  }
-
-  .mundo-mobile-description + i {
-    display: block;
   }
 }

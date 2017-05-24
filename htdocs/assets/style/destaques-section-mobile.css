@@ -46,14 +46,6 @@
     font-size: 1.7rem;
   }
 
-  .destaque-mobile-description + i {
-    display: block;
-  }
-
-  .destaque-image {
-    display: block;
-  }
-
   #second-row .card-image {
     background-size: contain;
     min-height: 12rem;
@@ -63,8 +55,6 @@
     width: 29vw;
   }
 
-
-
   #second-row .card-legend-mobile {
     float: right;
     margin-bottom: 1rem;
@@ -73,6 +63,7 @@
   }
 
   #second-row .mobile-icon {
+    display: block;
     position: absolute;
     color: var(--menu-background);
     left: 29vw;
@@ -98,6 +89,8 @@
   #third-row .thumbnail {
     display: flex;
     margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
   #third-row .card-image {
@@ -122,9 +115,12 @@
   #third-row .destaque-mobile-description {
     font-size: 5vw;
     width: 65vw;
+    margin-left: 2rem;
+    margin-right: 2rem;
   }
 
   #third-row .mobile-icon {
+    display: block;
     top: 43vw;
     color: var(--menu-background);
   }

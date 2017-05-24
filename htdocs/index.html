@@ -7,7 +7,7 @@
    <meta name="description" content="Test for Globo">
    <meta name="keywords" content="HTML, CSS, Front End, JavaScript">
    <meta name="author" content="Bruno Testahy Cardoso">
-   <meta name="viewport" id="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0">
+   <meta name="viewport" id="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
 
    <link href="./assets/style/style.css" rel="stylesheet"/>
 
@@ -22,14 +22,24 @@
 <!--Header Content-->
 <header class="main-header">
    <nav class="navbar navbar-default navbar-fixed-top">
+
       <label class="navigation-label" for="navigation-check">
          <i class="fa fa-bars" id="menu-button"></i>
          <div class="nav-header-title text-center">
             <h1 class="header-title">INFOGLOBO<span class="header-title-colon">:</span></h1>
          </div>
       </label>
-      <input class="navigation-check" id="navigation-check" type="checkbox"/>
-      <ul class="navigation-list">
+
+      <!--Menu button-->
+      <input class="navigation-check"
+             id="navigation-check"
+             type="checkbox"
+             role="button"
+             aria-pressed="false"/>
+
+      <ul class="navigation-list"
+          role="menu"
+          aria-haspopup="true">
          <li class="navigation-list-item">
             <a href="#destaques" class="nav-link" id="destaques-link">Destaques</a>
          </li>
@@ -40,20 +50,21 @@
             <a href="#mundo" class="nav-link" id="mundo-link">Mundo</a>
          </li>
       </ul>
-   </nav>
-</header>
+   </nav><!--navbar-->
+
+</header><!--Header Content-->
 
 <!--Main Content-->
 <div class="container">
 
    <!--Destaques Section-->
    <section class="section-background" id="destaques-section">
-      <i class="ancora" id="destaques"></i>
 
       <!--First row-->
       <div class="row">
+
          <div class="col-sm-6">
-            <div class="card-image destaque-image">
+            <div class="card-image destaque-image" id="destaques" role="img">
                <i class="fa fa-share-square-o destaque-icon" aria-hidden="true"></i>
                <div class="card-legend">
                   <p class="destaque-section"></p>
@@ -67,10 +78,10 @@
                <p class="destaque-mobile-title"></p>
                <p class="destaque-mobile-description"></p>
             </div>
-         </div>
+         </div><!--col-sm-6-->
 
          <div class="col-sm-6">
-            <div class="card-image destaque-image">
+            <div class="card-image destaque-image" role="img">
                <i class="fa fa-share-square-o destaque-icon" aria-hidden="true"></i>
                <div class="card-legend">
                   <p class="destaque-section"></p>
@@ -84,8 +95,9 @@
                <p class="destaque-mobile-title"></p>
                <p class="destaque-mobile-description"></p>
             </div>
-         </div>
-      </div>
+         </div><!--col-sm-6-->
+
+      </div><!--First row-->
 
       <hr class="mobile-separator">
 
@@ -93,9 +105,10 @@
       <div class="row" id="second-row">
 
          <div class="col-sm-6">
+
             <div class="row">
                <div class="col-sm-6">
-                  <div class="card-image destaque-image">
+                  <div class="card-image destaque-image" role="img">
                   </div>
                   <i class="fa fa-share-square-o destaque-icon mobile-icon" aria-hidden="true"></i>
                   <div class="card-legend-mobile">
@@ -118,14 +131,16 @@
                </div>
             </div>
 
-         </div>
+         </div><!--row-->
 
          <hr class="mobile-separator">
 
          <div class="col-sm-6">
+
             <div class="row">
+
                <div class="col-sm-6">
-                  <div class="card-image destaque-image">
+                  <div class="card-image destaque-image" role="img">
                   </div>
                   <i class="fa fa-share-square-o destaque-icon mobile-icon" aria-hidden="true"></i>
                   <div class="card-legend-mobile">
@@ -146,20 +161,21 @@
 
                   </div>
                </div>
-            </div>
 
-         </div>
+            </div><!--row-->
+
+         </div><!--col-sm-6-->
 
          <hr class="mobile-separator">
 
-      </div>
+      </div><!--Second row-->
 
       <!--Third row-->
       <div class="row" id="third-row">
 
          <div class="col-sm-3">
             <div class="thumbnail">
-               <div class="card-image destaque-image">
+               <div class="card-image destaque-image" role="img">
                </div>
                <div class="caption">
                   <p class="destaque-section"></p>
@@ -183,7 +199,7 @@
 
          <div class="col-sm-3">
             <div class="thumbnail">
-               <div class="card-image destaque-image">
+               <div class="card-image destaque-image" role="img">
                </div>
                <div class="caption">
                   <p class="destaque-section"></p>
@@ -206,7 +222,7 @@
 
          <div class="col-sm-3">
             <div class="thumbnail">
-               <div class="card-image destaque-image">
+               <div class="card-image destaque-image" role="img">
                </div>
                <div class="caption">
                   <p class="destaque-section"></p>
@@ -229,7 +245,7 @@
 
          <div class="col-sm-3">
             <div class="thumbnail">
-               <div class="card-image destaque-image">
+               <div class="card-image destaque-image" role="img">
                </div>
                <div class="caption">
                   <p class="destaque-section"></p>
@@ -247,20 +263,23 @@
             <i class="fa fa-share-square-o destaque-icon mobile-icon" aria-hidden="true"></i>
          </div>
 
-      </div>
+      </div><!--Third row-->
+
    </section><!--Destaques Section-->
 
    <hr class="mobile-separator">
 
    <!--Brasil Section-->
    <section class=section-background" id="brasil-section">
-      <i class="ancora" id="brasil"></i>
 
-      <h2 class="brasil-header">Brasil</h2>
+      <h2 class="brasil-header" id="brasil">Brasil</h2>
+
       <div class="row" id="brasil-row">
+
          <div class="col-sm-3" id="brasil-base-element">
+
             <div class="thumbnail">
-               <div class="brasil-card-image brasil-image">
+               <div class="brasil-card-image brasil-image" role="img">
                </div>
                <div class="caption">
                   <p class="brasil-section"></p>
@@ -273,13 +292,16 @@
                   <p class="brasil-mobile-section"></p>
                   <p class="brasil-mobile-title"></p>
                </div>
-            </div>
+            </div><!--thumbnail-->
+
             <p class="brasil-mobile-description"></p>
             <i class="fa fa-share-square-o brasil-icon mobile-icon" aria-hidden="true"></i>
 
             <hr class="mobile-separator">
-         </div>
-      </div>
+
+         </div><!--#brasil-base-element-->
+
+      </div><!--#brasil-row-->
 
       <div class="row" id="brasil-row2">
       </div>
@@ -291,13 +313,13 @@
 
    <!--Mundo Section-->
    <section class=section-background" id="mundo-section">
-      <i class="ancora" id="mundo"></i>
 
-      <h2 class="mundo-header">Mundo</h2>
+      <h2 class="mundo-header" id="mundo">Mundo</h2>
+
       <div class="row" id="mundo-row">
          <div class="col-sm-3" id="mundo-base-element">
             <div class="thumbnail">
-               <div class="mundo-card-image mundo-image">
+               <div class="mundo-card-image mundo-image" role="img">
                </div>
                <div class="caption">
                   <p class="mundo-section"></p>
@@ -310,14 +332,17 @@
                   <p class="mundo-mobile-section"></p>
                   <p class="mundo-mobile-title"></p>
                </div>
-            </div>
+
+            </div><!--thumbnail-->
+
             <p class="mundo-mobile-description"></p>
             <i class="fa fa-share-square-o mundo-icon mobile-icon" aria-hidden="true"></i>
 
             <hr class="mobile-separator">
 
-         </div>
-      </div>
+         </div><!--#mundo-base-element-->
+
+      </div><!--#mundo-row-->
 
       <div class="row" id="mundo-row2">
       </div>
